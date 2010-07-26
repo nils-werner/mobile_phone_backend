@@ -13,7 +13,7 @@ This Extension adds a stylesheet for mobile devices (Android, WinMo or iPhones) 
 
 [INSTALLATION]
 
-1. Upload the 'mobile_phone' folder in this archive to your Symphony 'extensions' folder.
+1. Upload the 'mobile_phone_backend' folder in this archive to your Symphony 'extensions' folder.
 
 2. Enable it by selecting the "Mobile Phone CSS" entry, choose Enable from the with-selected menu, then click Apply.
 
