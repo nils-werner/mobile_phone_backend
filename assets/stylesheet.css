@@ -1,3 +1,26 @@
 body {
-	background-color: red;
+	width: 480px;
+}
+
+/* FIX MENU */
+
+#nav, #nav > li {
+	height: auto;
+	margin-left: 0px;
+}
+
+#nav > li, #nav > li:hover, #nav > li.active {
+	float: none;
+	clear: both;
+	position: relative;
+	background-image: none;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#nav ul {
+	display: block;
+	position: static;
+	clear: both;
+	margin-top: 15px;
 }
