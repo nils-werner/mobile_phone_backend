@@ -1,8 +1,14 @@
 body {
-	width: 480px;
+	width: 640px;
+	font-size: 110%;
 }
 
 /* FIX MENU */
+
+#nav {
+	border-bottom: 3px solid #8F8F8F;
+	margin-bottom: 10px;
+}
 
 #nav, #nav > li {
 	height: auto;
@@ -19,6 +25,7 @@ body {
 }
 
 #nav ul {
+	font-size: 70%;
 	display: block;
 	position: static;
 	clear: both;

@@ -26,7 +26,7 @@
 		public function initaliseAdminPageHead($context) {
 			$page = $context['parent']->Page;
 			
-			$css_query = 'only screen and (max-device-width: 480px)';  // CSS Query for mobile devices
+			$css_query = 'only screen and (max-device-width: 640px)';  // CSS Query for mobile devices
 			//$css_query = 'screen'; // CSS Query for debugging
 			
 			// Stylesheets
@@ -36,7 +36,7 @@
 			}
 			
 			// Viewport
-			$page->addElementToHead(new XMLElement("meta", $style, array("name" => "viewport", "content" => "width=240,user-scalable=no")));
+			$page->addElementToHead(new XMLElement("meta", $style, array("name" => "viewport", "content" => "width=640,user-scalable=no")));
 		}
 			
 	}
