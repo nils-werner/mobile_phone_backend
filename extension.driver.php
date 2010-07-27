@@ -30,9 +30,9 @@
 			//$css_query = 'screen'; // CSS Query for debugging
 			
 			// Stylesheets
-			$page->addStylesheetToHead(URL . '/extensions/mobile_phone_Backend/assets/stylesheet.css', $css_query, 50002);
+			$page->addStylesheetToHead(URL . '/extensions/mobile_phone_backend/assets/stylesheet.css', $css_query, 50002);
 			if($this->_Parent->Author->isDeveloper()) { /* meh, I need to do this to hide the Blueprints/System menu items */
-				$page->addStylesheetToHead(URL . '/extensions/mobile_phone_Backend/assets/dev-stylesheet.css', $css_query, 50003);
+				$page->addStylesheetToHead(URL . '/extensions/mobile_phone_backend/assets/dev-stylesheet.css', $css_query, 50003);
 			}
 			
 			// Viewport
